@@ -1,9 +1,145 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "quan.nguyen@asnet.com.vn",
+      "password": "Quannguyen123@",
+      "firstName": "Quan",
+      "lastName": "Quan",
+      "id": 1
+    },
+    {
+      "email": "an.nguyen@asnet.com.vn",
+      "password": "Annguyen123@",
+      "firstName": "An",
+      "lastName": "Nguyen",
+      "id": 2
+    },
+    {
+      "email": "nguyen.ha@asnet.com.vn",
+      "password": "Nguyenha123@",
+      "firstName": "Nguyen",
+      "lastName": "Ha",
+      "id": 3
+    },
+    {
+      "email": "thanhtuan.1561999@gmail.com",
+      "password": "Tuanhoang123@",
+      "firstName": "Tuan",
+      "lastName": "Hoang",
+      "id": 4
+    },
+    {
+      "email": "nquan1007@gmail.com",
+      "password": "Quannguyen123@",
+      "firstName": "Quan",
+      "lastName": "Nguyen",
+      "id": 5
+    },
+    {
+      "email": "nguyenvananhvu8456@gmail.com",
+      "password": "Tuanhoang123@",
+      "firstName": "Vu",
+      "lastName": "Nguyen",
+      "id": 6
+    },
+    {
+      "email": "nhanguyen@gmail.com.vn",
+      "password": "Quannguyen123@",
+      "firstName": "Quan",
+      "lastName": "Nguyen",
+      "id": 7
+    },
+    {
+      "email": "minhnguyen@mail.com",
+      "password": "MXAsnet@081194",
+      "firstName": "minh",
+      "lastName": "dinh",
+      "id": 8
+    },
+    {
+      "email": "test@asnet.com.vn",
+      "password": "Asnet@123456",
+      "firstName": "Asnet",
+      "lastName": "Asnet",
+      "id": 9
+    },
+    {
+      "email": "testmail@asnet.com.vn",
+      "password": "Quannguyen123@",
+      "firstName": "Quan",
+      "lastName": "Nguyen",
+      "id": 10
+    },
+    {
+      "email": "thanhtuan.15614999@gmail.com",
+      "password": "123",
+      "firstName": "",
+      "lastName": "",
+      "id": 11
+    },
+    {
+      "email": "thanhtuan.1561123999@gmail.com",
+      "password": "Quannguyen123@",
+      "firstName": "Tuan",
+      "lastName": "Nguyen",
+      "id": 12
+    },
+    {
+      "email": "minhnguyen@gmail.com",
+      "password": "MXAsnet@081194",
+      "firstName": "minh",
+      "lastName": "dinh",
+      "id": 13
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "userId": 1,
+      "name": "Quan",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FAgility-Badminton-KQ_sang_01.png?alt=media&token=dae6746b-2f34-4033-8d8b-75dd944903ec",
+      "quantity": 111,
+      "price": 111,
+      "status": 0,
+      "type": 0,
+      "brand": "Nguyen",
+      "brandAvatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FScreenshot%20from%202023-09-06%2014-27-54.png?alt=media&token=b7ea35c0-b75b-4349-9dff-d290d616b5f9",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "typescript",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FScreenshot%20from%202023-08-29%2015-37-59.png?alt=media&token=d2c9a991-7d45-4a64-ba7e-ea26cfc0e721",
+      "quantity": "111",
+      "price": "111",
+      "status": "1",
+      "type": "2",
+      "brand": "Test",
+      "brandAvatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FScreenshot%20from%202023-08-28%2014-41-52.png?alt=media&token=8df5c059-a5c1-4fe5-9ce6-5edcc59e32a3",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "name": "QuanNguyen",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FScreenshot%20from%202023-08-23%2009-07-33.png?alt=media&token=5e66e843-eb68-4e76-b7a7-8f91718786b4",
+      "quantity": "111",
+      "price": "111",
+      "status": 0,
+      "type": 0,
+      "brand": "Test",
+      "brandAvatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FScreenshot%20from%202023-08-29%2015-00-21.png?alt=media&token=64dd504d-44f4-47f8-b6df-62a1373b8d3b",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "Quan",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/product-management-1dfa8.appspot.com/o/images%2FAgility-Badminton-KQ_chieu_02.png?alt=media&token=0bfd6aa2-c0fd-46b9-be6a-2ac513ea1730",
+      "quantity": "1",
+      "price": "2",
+      "status": "1",
+      "type": 0,
+      "brand": "Nguyen",
+      "brandAvatar": "/src/assets/icons/small-add.svg",
+      "id": 7
+    }
+  ]
 }
